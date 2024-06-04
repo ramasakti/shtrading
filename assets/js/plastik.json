@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik1.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik2.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik3.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik4.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik5.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik6.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Product 1",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/masonry-portfolio/masonry-portfolio-2.jpg",
+        "type": "stainless"
+    },
+    {
+        "name": "Branding 1",
+        "description": "Lorem ipsum, dolor sit",
+        "image_url": "assets/img/masonry-portfolio/masonry-portfolio-3.jpg",
+        "type": "fiberglass"
+    },
+    {
+        "name": "Limbah 1",
+        "description": "Lorem ipsum, dolor sit",
+        "image_url": "assets/img/masonry-portfolio/masonry-portfolio-4.jpg",
+        "type": "limbah"
+    }
+]
