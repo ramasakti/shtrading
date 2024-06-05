@@ -130,7 +130,7 @@
       <!-- /Hero Section -->
 
       <!-- Featured  Section -->
-      <section id="featured-services" class="featured-services section">
+      <!-- <section id="featured-services" class="featured-services section">
         <div class="container">
           <div class="row gy-4">
             <div
@@ -141,12 +141,11 @@
               <div class="service-item position-relative">
                 <div class="icon"><i class="bi bi-activity icon"></i></div>
                 <h4>
-                  <a class="stretched-link">Produk bahan plastik</a>
+                  <a class="stretched-link">JASA PEMBUATAN SPAREPART</a>
                 </h4>
                 <p>Pembuatan produk bahan plastik yang berkualitas</p>
               </div>
             </div>
-            <!-- End Service Item -->
 
             <div
               class="col-xl-3 col-md-6 d-flex"
@@ -158,9 +157,7 @@
                   <i class="bi bi-bounding-box-circles icon"></i>
                 </div>
                 <h4>
-                  <a class="stretched-link"
-                    >Supleyer bahan kimia industri dan pengolahan limbah cair</a
-                  >
+                  <a class="stretched-link">JASA PEMBUATAN MOULDING</a>
                 </h4>
                 <p>
                   Kami adalah pemasok terpercaya bahan kimia industri dan solusi
@@ -168,7 +165,6 @@
                 </p>
               </div>
             </div>
-            <!-- End Service Item -->
 
             <div
               class="col-xl-3 col-md-6 d-flex"
@@ -179,7 +175,7 @@
                 <div class="icon">
                   <i class="bi bi-calendar4-week icon"></i>
                 </div>
-                <h4><a class="stretched-link">Tangki Stainless</a></h4>
+                <h4><a class="stretched-link">JASA CNC</a></h4>
                 <p>
                   Kami bangga mempersembahkan rangkaian tangki stainless steel
                   berkualitas tinggi yang dirancang untuk berbagai kebutuhan
@@ -187,7 +183,6 @@
                 </p>
               </div>
             </div>
-            <!-- End Service Item -->
 
             <div
               class="col-xl-3 col-md-6 d-flex"
@@ -196,7 +191,7 @@
             >
               <div class="service-item position-relative">
                 <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                <h4><a class="stretched-link">Tangki Fiberglass</a></h4>
+                <h4><a class="stretched-link">JASA GERINDING</a></h4>
                 <p>
                   Memproduksi tangki fiberglass berkualitas tinggi yang
                   dirancang untuk memenuhi berbagai kebutuhan penyimpanan cairan
@@ -204,11 +199,54 @@
                 </p>
               </div>
             </div>
-            <!-- End Service Item -->
+          </div>
+        </div>
+      </section> -->
+      <!-- /Featured Services Section -->
+
+      <section id="stats" class="stats section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4" id="jasa-container">
+            <!-- Jasa items will be dynamically inserted here -->
           </div>
         </div>
       </section>
-      <!-- /Featured Services Section -->
+
+      <script>
+        // Function to fetch JSON data
+        async function fetchJasaData() {
+          try {
+            const response = await fetch("assets/js/jasa.json");
+            const data = await response.json();
+            const jasaContainer = document.getElementById("jasa-container");
+
+            data.forEach((item) => {
+              const colDiv = document.createElement("div");
+              colDiv.className =
+                "col-lg-3 col-md-6 d-flex flex-column align-items-center";
+
+              const icon = document.createElement("i");
+              icon.className = "bi bi-emoji-smile";
+
+              const statsItemDiv = document.createElement("div");
+              statsItemDiv.className = "stats-item";
+
+              const span = document.createElement("span");
+              span.textContent = item.jasa;
+
+              statsItemDiv.appendChild(span);
+              colDiv.appendChild(icon);
+              colDiv.appendChild(statsItemDiv);
+              jasaContainer.appendChild(colDiv);
+            });
+          } catch (error) {
+            console.error("Error fetching the JSON data:", error);
+          }
+        }
+
+        // Fetch and display the data when the page loads
+        document.addEventListener("DOMContentLoaded", fetchJasaData);
+      </script>
 
       <!-- tentang-kami Section -->
       <section id="tentang-kami" class="about section">
