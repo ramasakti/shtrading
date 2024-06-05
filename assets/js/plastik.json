@@ -36,21 +36,51 @@
         "type": "plastik"
     },
     {
-        "name": "Product 1",
+        "name": "Produk Plastik",
         "description": "Produk Plastik",
-        "image_url": "assets/img/masonry-portfolio/masonry-portfolio-2.jpg",
-        "type": "stainless"
+        "image_url": "assets/img/plastik/plastik7.jpeg",
+        "type": "plastik"
     },
     {
-        "name": "Branding 1",
-        "description": "Lorem ipsum, dolor sit",
-        "image_url": "assets/img/masonry-portfolio/masonry-portfolio-3.jpg",
-        "type": "fiberglass"
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik8.jpeg",
+        "type": "plastik"
     },
     {
-        "name": "Limbah 1",
-        "description": "Lorem ipsum, dolor sit",
-        "image_url": "assets/img/masonry-portfolio/masonry-portfolio-4.jpg",
-        "type": "limbah"
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik9.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik6.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik10.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik11.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik12.jpeg",
+        "type": "plastik"
+    },
+    {
+        "name": "Produk Plastik",
+        "description": "Produk Plastik",
+        "image_url": "assets/img/plastik/plastik13.jpeg",
+        "type": "plastik"
     }
 ]
