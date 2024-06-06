@@ -1988,9 +1988,13 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 80%;
+  width: 80%; 
+  /* height: 80vw; */
+  max-width: 600px;
+  max-height: 600px; 
   display: block;
   margin: 0 auto;
+  object-fit: cover;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
