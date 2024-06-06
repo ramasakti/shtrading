@@ -885,7 +885,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--contrast-color), transparent 40%);
+  background: color-mix(in srgb, var(--contrast-color), transparent 70%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -899,7 +899,7 @@ section,
 
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  /* font-size: 48px; */
   font-weight: 700;
   line-height: 56px;
 }
@@ -912,7 +912,7 @@ section,
   color: color-mix(in srgb, var(--default-color));
   margin: 5px 0 30px 0;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .hero .btn-get-started {
@@ -1219,8 +1219,10 @@ section,
   text-align: center;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   padding: 80px 20px;
-  transition: border ease-in-out 0.3s;
+  border-radius: 16px;
+  transition: border ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
   height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .services .service-item .icon {
@@ -1257,6 +1259,7 @@ section,
 
 .services .service-item:hover {
   border-color: var(--accent-color);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .services .service-item:hover h3 {
@@ -1267,9 +1270,6 @@ section,
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
-  --default-color: #ffffff;
-  --background-color: #000000;
-  --heading-color: #ffffff;
   padding: 80px 0;
   position: relative;
 }
@@ -1308,9 +1308,14 @@ section,
 
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
-  border-radius: 50%;
-  border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  /* border-radius: 50%; */
+  /* border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%); */
   margin: 0 auto;
+  object-fit: contain; 
+  height: 100px; 
+  display: block; 
+  text-indent: -9999px;
+  background-color: #ffffff;
 }
 
 .testimonials .testimonial-item h3 {
@@ -1774,7 +1779,8 @@ section,
 --------------------------------------------------------------*/
 .contact .info-wrap {
   box-shadow: 0px 0px 20px color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 30px;
+  padding: 50px 200px;
+  text-align: center;
 }
 
 @media (max-width: 575px) {
@@ -1788,7 +1794,7 @@ section,
 }
 
 .contact .info-item i {
-  font-size: 20px;
+  font-size: 14px;
   color: var(--accent-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   width: 44px;
