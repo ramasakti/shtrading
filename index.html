@@ -209,46 +209,27 @@
       <section id="stats" class="stats section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4" id="jasa-container">
-            <!-- Jasa items will be dynamically inserted here -->
+            <div
+              class="col-lg-6 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-check-lg"></i>
+              <div class="stats-item">
+                <span>Jasa Injection</span>
+                <p>"Dengan mesin injeksi berkapasistas 90 ton - 1000 ton"</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-check-lg"></i>
+              <div class="stats-item">
+                <span>Jasa Pembuatan Sparepart dan Moulding</span>
+                <p>Jasa CNC - Jasa EDM - Jasa Bubut - Jasa Grinding</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-      <script>
-        // Function to fetch JSON data
-        async function fetchJasaData() {
-          try {
-            const response = await fetch("assets/js/jasa.json");
-            const data = await response.json();
-            const jasaContainer = document.getElementById("jasa-container");
-
-            data.forEach((item) => {
-              const colDiv = document.createElement("div");
-              colDiv.className =
-                "col-lg-3 col-md-6 d-flex flex-column align-items-center";
-
-              const icon = document.createElement("i");
-              icon.className = "bi bi-check-lg";
-
-              const statsItemDiv = document.createElement("div");
-              statsItemDiv.className = "stats-item";
-
-              const span = document.createElement("span");
-              span.textContent = item.jasa;
-
-              statsItemDiv.appendChild(span);
-              colDiv.appendChild(icon);
-              colDiv.appendChild(statsItemDiv);
-              jasaContainer.appendChild(colDiv);
-            });
-          } catch (error) {
-            console.error("Error fetching the JSON data:", error);
-          }
-        }
-
-        // Fetch and display the data when the page loads
-        document.addEventListener("DOMContentLoaded", fetchJasaData);
-      </script>
 
       <!-- tentang-kami Section -->
       <section id="tentang-kami" class="about section">
@@ -256,7 +237,7 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>Tentang Kami</h2>
           <p>
-            <span>Cari Tahu Lebih Lanjut</span>
+            <span style="color: #fc4100">Cari Tahu Lebih Lanjut</span>
             <span class="description-title">Tentang Kami</span>
           </p>
         </div>
@@ -441,9 +422,9 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>Layanan</h2>
           <p>
-            <span>Periksa</span>
+            <span style="color: #fc4100">Periksa</span>
             <span class="description-title">Layanan</span>
-            <span>yang kami berikan</span>
+            <span style="color: #fc4100">yang kami berikan</span>
           </p>
         </div>
         <!-- End Section Title -->
@@ -512,12 +493,10 @@
                     class="rounded-pill mb-4"
                   />
                 </div>
-                <a href="produk-plastik-details.html" class="stretched-link">
+                <a href="pal" class="stretched-link">
                   <h3>Pallet Plastik</h3>
                 </a>
-                <a
-                  href="produk-plastik-details.html"
-                  class="stretched-link btn-lebih-lanjut mt-4"
+                <a href="pal" class="stretched-link btn-lebih-lanjut mt-4"
                   >Lihat lebih lanjut</a
                 >
               </div>
@@ -652,7 +631,7 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>Klien</h2>
           <p>
-            <span>Klien</span>
+            <span style="color: #fc4100">Klien</span>
             <span class="description-title">Kami</span>
           </p>
         </div>
@@ -663,7 +642,7 @@
                 "loop": true,
                 "speed": 600,
                 "autoplay": {
-                  "delay": 5000
+                  "delay": 500
                 },
                 "slidesPerView": "auto",
                 "pagination": {
@@ -835,10 +814,9 @@
           <h2>F.A.Q</h2>
           <p>
             <span class="description-title">Pertanyaan</span>
-            <span>Sering Ditanyakan</span>
+            <span style="color: #fc4100">Sering Ditanyakan</span>
           </p>
         </div>
-        <!-- End Section Title -->
 
         <div class="container">
           <div class="row justify-content-center">
@@ -951,7 +929,7 @@
       <section id="kontak" class="contact section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
+          <h2>Kontak</h2>
           <p>
             <span class="description-title"
               >Silahkan Menghubungi Kami Apabila Ada Yang Perlu Ditanyakan

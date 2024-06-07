@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pallet",
+        "description": "Pallet",
+        "image_url": "assets/img/pallet-plastik/1CP.png",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Pallet",
+        "description": "Pallet",
+        "image_url": "assets/img/pallet-plastik/2CP.png",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Pallet",
+        "description": "Pallet",
+        "image_url": "assets/img/pallet-plastik/3CP.png",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Pallet",
+        "description": "Pallet",
+        "image_url": "assets/img/pallet-plastik/4CP.png",
+        "type": "Pallet"
+    },
+    {
+        "name": "Pallet",
+        "description": "Pallet",
+        "image_url": "assets/img/pallet-plastik/5CP.png",
+        "type": "Pallet"
+    }
+]
