@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Inject",
+        "description": "Inject",
+        "image_url": "assets/img/inject/inject (1).jpeg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Inject",
+        "description": "Inject",
+        "image_url": "assets/img/inject/inject (2).jpeg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Inject",
+        "description": "Inject",
+        "image_url": "assets/img/inject/inject (3).jpeg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Inject",
+        "description": "Inject",
+        "image_url": "assets/img/inject/inject (4).jpeg",
+        "type": "Inject"
+    },
+    {
+        "name": "Inject",
+        "description": "Inject",
+        "image_url": "assets/img/inject/inject (5).jpeg",
+        "type": "Inject"
+    },
+    {
+        "name": "Inject",
+        "description": "Inject",
+        "image_url": "assets/img/inject/inject (6).jpeg",
+        "type": "Inject"
+    }
+]

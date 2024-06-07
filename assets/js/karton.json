@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Karton",
+        "description": "Karton",
+        "image_url": "assets/img/karton/karton.jpg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Karton",
+        "description": "Karton",
+        "image_url": "assets/img/karton/karton (1).jpg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Karton",
+        "description": "Karton",
+        "image_url": "assets/img/karton/karton (2).jpg",
+        "type": "Biji Plastik"
+    }
+]

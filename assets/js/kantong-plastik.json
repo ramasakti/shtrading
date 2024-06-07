@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Kantong Plastik",
+        "description": "Kantong Plastik",
+        "image_url": "assets/img/kantong-plastik/kantong-plastik (1).jpeg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Kantong Plastik",
+        "description": "Kantong Plastik",
+        "image_url": "assets/img/kantong-plastik/kantong-plastik (6).jpeg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Kantong Plastik",
+        "description": "Kantong Plastik",
+        "image_url": "assets/img/kantong-plastik/kantong-plastik (2).jpeg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Kantong Plastik",
+        "description": "Kantong Plastik",
+        "image_url": "assets/img/kantong-plastik/kantong-plastik (3).jpeg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Kantong Plastik",
+        "description": "Kantong Plastik",
+        "image_url": "assets/img/kantong-plastik/kantong-plastik (4).jpeg",
+        "type": "Biji Plastik"
+    },
+    {
+        "name": "Kantong Plastik",
+        "description": "Kantong Plastik",
+        "image_url": "assets/img/kantong-plastik/kantong-plastik (5).jpeg",
+        "type": "Kantong Plastik"
+    }
+]
