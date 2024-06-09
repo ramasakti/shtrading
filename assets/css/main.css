@@ -1208,6 +1208,7 @@ section,
 
 .clients .swiper-slide img {
   transition: 0.3s;
+  border-radius: 12px;
 }
 
 .clients .swiper-slide img:hover {
